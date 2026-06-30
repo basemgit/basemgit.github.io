@@ -1,0 +1,145 @@
+/* Remove browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 30px;
+}
+
+/* Logo */
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+/* Burger button */
+
+.menu-button {
+    background: none;
+    border: none;
+
+    font-size: 32px;
+
+    cursor: pointer;
+
+    padding: 6px 10px;
+}
+
+.menu-button:hover {
+    opacity: 0.7;
+}
+
+/* Main content */
+
+main {
+    padding: 40px 30px;
+}
+
+/* Home hero */
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* Profile image */
+
+.hero-image img {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Right side */
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Subtitle */
+
+.hero-content h2 {
+    font-size: 32px;
+    font-weight: normal;
+
+    margin-bottom: 25px;
+}
+
+/* Social icons */
+
+.social-links,
+.github-link {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-links img,
+.github-link img {
+    width: 32px;
+    height: 32px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu-button {
+        font-size: 30px;
+    }
+
+    main {
+        padding: 25px 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 220px;
+        max-width: 100%;
+    }
+
+    .hero-content h2 {
+        font-size: 26px;
+    }
+
+    .social-links,
+    .github-link {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
