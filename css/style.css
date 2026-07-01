@@ -273,15 +273,17 @@ main {
 }
 
 .item-buttons img {
-    height: 40px;
+    height: 40px;         /* was 40px — a bit shorter */
     width: auto;
+    max-width: 120px;     /* stops it from getting too wide */
+    object-fit: contain;
 }
 
 .item-video {
     flex: 1 1 auto;
     max-width: 480px;
+    margin-left: 60px;    /* nudge right — increase/decrease to taste */
 }
-
 .video-thumb {
     position: relative;
     width: 100%;

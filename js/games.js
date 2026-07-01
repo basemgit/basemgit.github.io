@@ -12,6 +12,46 @@ const games = [
         buttons: [
             { store: "meta", link: "https://www.meta.com/experiences/smash/24864752229890385/" }
         ]
+    },
+    {
+        title: "Puppy",
+        image: "images/games/puppy.webp",
+        video: "2xCmzlKi-ws",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Puppy" }
+        ]
+    },
+    {
+        title: "Balls",
+        image: "images/games/balls.webp",
+        video: "cJ6mhLTiK0w",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Balls" }
+        ]
+    },
+    {
+        title: "The Battle",
+        image: "images/games/the-battle.webp",
+        video: "J6f233bFsDQ",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.TheBattle" }
+        ]
+    },
+    {
+        title: "Bananas",
+        image: "images/games/bananas.webp",
+        video: "7VZmOTZElgc",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Bananas" }
+        ]
+    },
+    {
+        title: "Kick And Chop",
+        image: "images/games/kick-and-chop.webp",
+        video: "ciiyOLnFDbI",
+        buttons: [
+            { store: "itch", link: "https://basem-ibrahim.itch.io/kick-and-chop" }
+        ]
     }
 ];
 

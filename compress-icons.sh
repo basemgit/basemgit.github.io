@@ -56,6 +56,11 @@ convert_image () {
 # --- GAME ICONS (max width 256) ---------------------------------------------
 echo "Game icons:"
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/smash-icon.png?1764092482" "$GAMES_DIR/smash.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_3.jpg" "$GAMES_DIR/puppy.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_6.png" "$GAMES_DIR/balls.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_2.jpg" "$GAMES_DIR/the-battle.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_5.png" "$GAMES_DIR/bananas.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/cover.png?1688372482" "$GAMES_DIR/kick-and-chop.webp" 256
 
 # --- STORE LOGOS (max width 200, reused across all games) -------------------
 echo "Store logos:"
