@@ -251,8 +251,8 @@ main {
 .item-left {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    flex: 0 0 auto;
+    gap: 20px;
+    flex: 0 0 200px;    /* fixed 200px width — was "0 0 auto" */
 }
 
 .item-left h2 {
@@ -261,7 +261,7 @@ main {
 }
 
 .item-icon {
-    width: 120px;
+    width: 80px;
     height: auto;
     display: block;
 }

@@ -63,8 +63,8 @@ convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/publishe
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/cover.png?1688372482" "$GAMES_DIR/kick-and-chop.webp" 256
 
 # --- STORE LOGOS (max width 200, reused across all games) -------------------
+# NOTE: meta.webp is added manually (black version) — not downloaded here.
 echo "Store logos:"
-convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/meta-quest-seeklogo-white.png?1764092164" "$STORES_DIR/meta.webp" 200
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/715338_15.png" "$STORES_DIR/googleplay.webp" 200
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/badge-color.png?1688362316" "$STORES_DIR/itch.webp" 200
 
