@@ -252,7 +252,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex: 0 0 200px;    /* fixed 200px width — was "0 0 auto" */
+    flex: 0 0 200px;
 }
 
 .item-left h2 {
@@ -273,24 +273,28 @@ main {
 }
 
 .item-buttons img {
-    height: 40px;         /* was 40px — a bit shorter */
+    height: 40px;
     width: auto;
-    max-width: 120px;     /* stops it from getting too wide */
+    max-width: 120px;
     object-fit: contain;
 }
 
 .item-video {
     flex: 1 1 auto;
     max-width: 480px;
-    margin-left: 60px;    /* nudge right — increase/decrease to taste */
+    margin-left: 60px;
 }
+
 .video-thumb {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
-    background-size: cover;
-    background-position: center;
     cursor: pointer;
+}
+
+.video-thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .item-video iframe {
@@ -321,5 +325,6 @@ main {
     }
     .item-video {
         max-width: 100%;
+        margin-left: 0;
     }
 }

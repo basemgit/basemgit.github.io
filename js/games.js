@@ -110,11 +110,22 @@ games.forEach(game => {
     if (game.video) {
         const right = document.createElement("div");
         right.className = "item-video";
+
         const thumb = document.createElement("div");
         thumb.className = "video-thumb";
-        thumb.style.backgroundImage =
-            `url(https://img.youtube.com/vi/${game.video}/hqdefault.jpg)`;
-        thumb.innerHTML = '<span class="play-icon">&#9654;</span>';
+
+        const thumbImg = document.createElement("img");
+        thumbImg.src = `https://img.youtube.com/vi/${game.video}/hqdefault.jpg`;
+        thumbImg.alt = game.title + " video";
+        thumbImg.loading = "lazy";
+
+        const play = document.createElement("span");
+        play.className = "play-icon";
+        play.innerHTML = "&#9654;";
+
+        thumb.appendChild(thumbImg);
+        thumb.appendChild(play);
+
         thumb.addEventListener("click", () => {
             const iframe = document.createElement("iframe");
             iframe.src = `https://www.youtube.com/embed/${game.video}?autoplay=1`;
