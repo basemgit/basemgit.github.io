@@ -115,7 +115,7 @@ games.forEach(game => {
         thumb.className = "video-thumb";
 
         const thumbImg = document.createElement("img");
-        thumbImg.src = `https://img.youtube.com/vi/${game.video}/hqdefault.jpg`;
+        thumbImg.src = `https://img.youtube.com/vi/${game.video}/mqdefault.jpg`;
         thumbImg.alt = game.title + " video";
         thumbImg.loading = "lazy";
 
