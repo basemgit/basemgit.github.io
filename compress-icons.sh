@@ -66,6 +66,11 @@ convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/publishe
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_4.png" "$GAMES_DIR/rescue.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_1.jpg" "$GAMES_DIR/boxes.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_3.png" "$GAMES_DIR/hamada.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_2.png" "$GAMES_DIR/shoot.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_1.png" "$GAMES_DIR/squares.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/ic-website_1.png" "$GAMES_DIR/the-black-balloon.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/icon-white-background_1.jpg" "$GAMES_DIR/circles.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/store-icon_1.jpg" "$GAMES_DIR/donkey-football.webp" 256
 
 # --- STORE LOGOS (max width 200, reused across all games) -------------------
 # NOTE: meta.webp is added manually (black version) — not downloaded here.

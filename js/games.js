@@ -92,6 +92,46 @@ const games = [
         buttons: [
             { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Hamada" }
         ]
+    },
+    {
+        title: "Shoot",
+        image: "images/games/shoot.webp",
+        video: "r6ijYV4XWL0",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Shoot" }
+        ]
+    },
+    {
+        title: "Squares",
+        image: "images/games/squares.webp",
+        video: "JLPd6iMCRVU",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Squares" }
+        ]
+    },
+    {
+        title: "The Black Balloon",
+        image: "images/games/the-black-balloon.webp",
+        video: "id2cD-9B9Bg",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.TheBlackBalloon" }
+        ]
+    },
+    {
+        title: "Circles",
+        image: "images/games/circles.webp",
+        video: "5e0SngnJdm8",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Circles" }
+        ]
+    },
+    {
+        title: "Donkey Football",
+        image: "images/games/donkey-football.webp",
+        video: "7UDV4n4hw_U",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.DonkeyFootball" }
+        ]
     }
 ];
 
