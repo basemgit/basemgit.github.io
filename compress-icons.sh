@@ -61,6 +61,11 @@ convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/publishe
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_2.jpg" "$GAMES_DIR/the-battle.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_5.png" "$GAMES_DIR/bananas.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/cover.png?1688372482" "$GAMES_DIR/kick-and-chop.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/cover_1.png" "$GAMES_DIR/frenzy.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon-edit_1.png" "$GAMES_DIR/hell.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_4.png" "$GAMES_DIR/rescue.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_1.jpg" "$GAMES_DIR/boxes.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon_3.png" "$GAMES_DIR/hamada.webp" 256
 
 # --- STORE LOGOS (max width 200, reused across all games) -------------------
 # NOTE: meta.webp is added manually (black version) — not downloaded here.

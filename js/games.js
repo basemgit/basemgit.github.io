@@ -52,6 +52,46 @@ const games = [
         buttons: [
             { store: "itch", link: "https://basem-ibrahim.itch.io/kick-and-chop" }
         ]
+    },
+    {
+        title: "Frenzy",
+        image: "images/games/frenzy.webp",
+        video: "sAclRs57Ick",
+        buttons: [
+            { store: "itch", link: "https://basem-ibrahim.itch.io/frenzy" }
+        ]
+    },
+    {
+        title: "Hell",
+        image: "images/games/hell.webp",
+        video: "kqOAy6an5Ws",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Hell" }
+        ]
+    },
+    {
+        title: "Rescue",
+        image: "images/games/rescue.webp",
+        video: "T19TxZt162k",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Rescue" }
+        ]
+    },
+    {
+        title: "Boxes",
+        image: "images/games/boxes.webp",
+        video: "tmeHeVqQtZ8",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Boxes" }
+        ]
+    },
+    {
+        title: "Hamada حماده",
+        image: "images/games/hamada.webp",
+        video: "6-OtEpBLTK0",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Hamada" }
+        ]
     }
 ];
 
