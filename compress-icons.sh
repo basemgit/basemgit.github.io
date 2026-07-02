@@ -71,12 +71,18 @@ convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/publishe
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/ic-website_1.png" "$GAMES_DIR/the-black-balloon.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/icon-white-background_1.jpg" "$GAMES_DIR/circles.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/store-icon_1.jpg" "$GAMES_DIR/donkey-football.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/icon2_1.png" "$GAMES_DIR/wait-and-hit.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/2511327.jpg" "$GAMES_DIR/azeneth.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/4305847.png" "$GAMES_DIR/fartastic.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/8320263_4.png?1599833819" "$GAMES_DIR/whistle-to-fart.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/4376125.png?97" "$GAMES_DIR/colorful.webp" 256
 
 # --- STORE LOGOS (max width 200, reused across all games) -------------------
 # NOTE: meta.webp is added manually (black version) — not downloaded here.
 echo "Store logos:"
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/715338_15.png" "$STORES_DIR/googleplay.webp" 200
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/badge-color.png?1688362316" "$STORES_DIR/itch.webp" 200
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/2459432.gif?91" "$STORES_DIR/kongregate.webp" 200
 
 # --- Cleanup ----------------------------------------------------------------
 rm -rf "$TMP_DIR"

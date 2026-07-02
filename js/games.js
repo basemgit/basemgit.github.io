@@ -132,6 +132,44 @@ const games = [
         buttons: [
             { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.DonkeyFootball" }
         ]
+    },
+    {
+        title: "Wait & Hit ثبت صنم",
+        image: "images/games/wait-and-hit.webp",
+        video: "jmu2MefQd2E",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.waitAndHit" }
+        ]
+    },
+    {
+        title: "Azeneth The Brave",
+        image: "images/games/azeneth.webp",
+        video: "193KEe41pVM",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.BasemIbrahim.Azeneth" }
+        ]
+    },
+    {
+        title: "Fartastic",
+        image: "images/games/fartastic.webp",
+        video: "8WU0nRVWWmo",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basem.Fartastic" }
+        ]
+    },
+    {
+        title: "Whistle To Fart Prank",
+        image: "images/games/whistle-to-fart.webp",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basem.Whistle_To_Fart_Prank" }
+        ]
+    },
+    {
+        title: "Colorful",
+        image: "images/games/colorful.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/colorful" }
+        ]
     }
 ];
 
@@ -140,7 +178,8 @@ const storeLogos = {
     meta:       "images/stores/meta.webp",
     googleplay: "images/stores/googleplay.webp",
     itch:       "images/stores/itch.webp",
-    amazon:     "images/stores/amazon.webp"
+    amazon:     "images/stores/amazon.webp",
+    kongregate: "images/stores/kongregate.webp"
 };
 
 // ===== RENDERER (you won't usually need to touch this) =====
