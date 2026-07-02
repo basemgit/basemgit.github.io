@@ -328,3 +328,58 @@ main {
         margin-left: 0;
     }
 }
+
+/* Single-subject pages: bigger content images + crisp review logos */
+
+/* =========================================================
+   EXPERIENCE MECCA page (and other single-subject pages)
+   Used in: experience-mecca.html + js/experience-mecca.js
+   Safe to reuse on future non-list pages with big images.
+========================================================= */
+
+/* Makes the left column stretch full width (big images/videos) */
+/* Used in: Experience Mecca */
+.item-left-wide {
+    flex: 1 1 auto;
+}
+
+/* Big content image (hero screenshot) */
+/* Used in: Experience Mecca */
+.item-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+}
+
+/* Full-width image (closing image at bottom) */
+/* Used in: Experience Mecca */
+.item-image-large {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Small review logo (VR Shop, Quartz) - only the image is clickable */
+/* Used in: Experience Mecca */
+.item-logo {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Shrinks the link to hug the image, so empty space isn't clickable */
+/* Used in: Experience Mecca */
+.item-left-wide a {
+    display: inline-block;
+    width: fit-content;
+}
+
+/* Section title on its own line (e.g. "Reviews") */
+/* Used in: Experience Mecca */
+.section-heading {
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+}
