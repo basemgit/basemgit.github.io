@@ -85,6 +85,7 @@ convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/5450873.
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/4005627.png?64" "$GAMES_DIR/guess-what.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/7430788.png?114" "$GAMES_DIR/hungry-bee.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/530881.jpg?113" "$GAMES_DIR/dolphin-vs-ball.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/110596.jpg?131" "$GAMES_DIR/hero-or-zero.webp" 256
 
 # --- STORE LOGOS (max width 200, reused across all games) -------------------
 # NOTE: meta.webp is added manually (black version) — not downloaded here.
@@ -92,6 +93,7 @@ echo "Store logos:"
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/715338_15.png" "$STORES_DIR/googleplay.webp" 200
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/badge-color.png?1688362316" "$STORES_DIR/itch.webp" 200
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/2459432.gif?91" "$STORES_DIR/kongregate.webp" 200
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/6102337.png?138" "$STORES_DIR/ggj.webp" 200
 
 # --- Cleanup ----------------------------------------------------------------
 rm -rf "$TMP_DIR"

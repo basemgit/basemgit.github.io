@@ -233,6 +233,15 @@ const games = [
         buttons: [
             { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/dolphin-vs-ball" }
         ]
+    },
+    {
+        title: "Hero Or Zero (Global Game Jam)",
+        image: "images/games/hero-or-zero.webp",
+        video: "XFBduwh_y00",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/hero-or-zero" },
+            { store: "ggj", link: "https://2013.globalgamejam.org/2013/hero-or-zero" }
+        ]
     }
 ];
 
@@ -242,7 +251,8 @@ const storeLogos = {
     googleplay: "images/stores/googleplay.webp",
     itch:       "images/stores/itch.webp",
     amazon:     "images/stores/amazon.webp",
-    kongregate: "images/stores/kongregate.webp"
+    kongregate: "images/stores/kongregate.webp",
+    ggj:        "images/stores/ggj.webp"
 };
 
 // ===== RENDERER (you won't usually need to touch this) =====
