@@ -81,6 +81,10 @@ convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/6773979.
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/4274299.png?127" "$GAMES_DIR/space-word-picker.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/7068771.jpg?131" "$GAMES_DIR/city-driver.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/8041151.png?100" "$GAMES_DIR/10-seconds-racing.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/5450873.png" "$GAMES_DIR/kooky.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/4005627.png?64" "$GAMES_DIR/guess-what.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/7430788.png?114" "$GAMES_DIR/hungry-bee.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/530881.jpg?113" "$GAMES_DIR/dolphin-vs-ball.webp" 256
 
 # --- STORE LOGOS (max width 200, reused across all games) -------------------
 # NOTE: meta.webp is added manually (black version) — not downloaded here.

@@ -205,6 +205,34 @@ const games = [
         buttons: [
             { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/10secondsracing" }
         ]
+    },
+    {
+        title: "Kooky",
+        image: "images/games/kooky.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/kooky" }
+        ]
+    },
+    {
+        title: "Guess What",
+        image: "images/games/guess-what.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/guess-what" }
+        ]
+    },
+    {
+        title: "Hungry Bee",
+        image: "images/games/hungry-bee.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/hungry-bee" }
+        ]
+    },
+    {
+        title: "Dolphin VS Ball",
+        image: "images/games/dolphin-vs-ball.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/dolphin-vs-ball" }
+        ]
     }
 ];
 
