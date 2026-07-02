@@ -170,6 +170,41 @@ const games = [
         buttons: [
             { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/colorful" }
         ]
+    },
+    {
+        title: "Bat Ball",
+        image: "images/games/bat-ball.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/batball" }
+        ]
+    },
+    {
+        title: "Shut'm Up",
+        image: "images/games/shutm-up.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/shutm-up" }
+        ]
+    },
+    {
+        title: "Space Word Picker",
+        image: "images/games/space-word-picker.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/space-word-picker" }
+        ]
+    },
+    {
+        title: "City Driver",
+        image: "images/games/city-driver.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/citydriver" }
+        ]
+    },
+    {
+        title: "10 Seconds Racing",
+        image: "images/games/10-seconds-racing.webp",
+        buttons: [
+            { store: "kongregate", link: "https://www.kongregate.com/games/gamedeveloper/10secondsracing" }
+        ]
     }
 ];
 

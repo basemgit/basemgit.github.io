@@ -76,6 +76,11 @@ convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/2511327.
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/4305847.png" "$GAMES_DIR/fartastic.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/8320263_4.png?1599833819" "$GAMES_DIR/whistle-to-fart.webp" 256
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/4376125.png?97" "$GAMES_DIR/colorful.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/6171530.png?133" "$GAMES_DIR/bat-ball.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/6773979.png?105" "$GAMES_DIR/shutm-up.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/4274299.png?127" "$GAMES_DIR/space-word-picker.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/7068771.jpg?131" "$GAMES_DIR/city-driver.webp" 256
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/8041151.png?100" "$GAMES_DIR/10-seconds-racing.webp" 256
 
 # --- STORE LOGOS (max width 200, reused across all games) -------------------
 # NOTE: meta.webp is added manually (black version) — not downloaded here.
