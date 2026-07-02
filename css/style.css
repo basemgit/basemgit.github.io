@@ -383,3 +383,42 @@ main {
     font-weight: bold;
     width: 100%;
 }
+/* ===== MUSIC PAGE ===== */
+/* Append this to the end of css/style.css. Nothing above is changed. */
+
+.music-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.music-item .cover {
+    width: 308px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    flex: 0 0 auto;
+}
+
+.music-right h2 {
+    margin: 0 0 10px 0;
+}
+
+.play-button {
+    display: inline-block;
+    background: #1e6fff;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .music-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
