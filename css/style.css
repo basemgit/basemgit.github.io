@@ -493,3 +493,27 @@ main {
     }
 }
  
+/* =========================================================
+   DANCE page
+   Used in: dance.html + js/dance.js
+   Close to Experience Mecca; images are centered + capped.
+========================================================= */
+
+/* Big centered image (capped width, not edge-to-edge) */
+/* Used in: Dance */
+.item-image-centered {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centered video (single-subject pages) */
+/* Used in: Dance */
+.item-video-centered {
+    flex: 1 1 auto;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-left: auto;
+}
