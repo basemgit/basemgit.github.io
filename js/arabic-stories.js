@@ -32,7 +32,7 @@ const books = [
     },
     { title: "اليوم الأخير", image: "images/novels/el-yom-el-akheer.webp",
         stores: [
-            { img: "images/stores/ireadhub-shop.webp", link: "https://shop.ireadhub.com/products/%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1" },
+            { img: "images/stores/ireadhub-shop.webp", link: "https://ireadhub.com/book/%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1-2/" },
             { img: "images/stores/alrewaq.webp",       link: "https://alrewaqpublishing.com/product/%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1/" }
         ]
     },
