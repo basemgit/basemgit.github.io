@@ -74,8 +74,8 @@ convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/publishe
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/911212883_1.jpg" "$NOVELS_DIR/samaka.webp" 308
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/amazon-cover-comfort-os_1.jpg" "$NOVELS_DIR/comfort-os.webp" 308
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/922839287_1.jpg" "$NOVELS_DIR/cinema-lolita.webp" 308
-convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/1845831283_1.jpg" "$NOVELS_DIR/interview.webp" 308
-convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/1666455573_2.jpg" "$NOVELS_DIR/khayal-helmy.webp" 308
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/1845831283_1.jpg" "$NOVELS_DIR/el-dor-el-sades.webp" 308
+convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/1666455573_2.jpg" "$NOVELS_DIR/interview.webp" 308
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/amazon-cover-copy_1.jpg" "$NOVELS_DIR/asmahan-hanem.webp" 308
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/published/2012056402_2.jpg" "$NOVELS_DIR/khayal-helmy-2.webp" 308
 convert_image "https://basemibrahim.weebly.com/uploads/4/9/8/8/49884657/editor/english-cake-kotobna_1.jpg?1754131479" "$NOVELS_DIR/english-cake.webp" 308
