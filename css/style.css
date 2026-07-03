@@ -517,3 +517,55 @@ main {
     margin: 0 auto;
     margin-left: auto;
 }
+/* =========================================================
+   COMIX page
+   Used in: comix.html + js/comix.js
+   Title on top; image and store logo side by side (logo right of image).
+========================================================= */
+
+.comix-item {
+    margin-bottom: 40px;
+}
+
+/* Title on top */
+.comix-item h2 {
+    margin: 0 0 12px 0;
+    font-weight: normal;
+}
+
+/* Row: image on the left, store logo to its right */
+.comix-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Cover image */
+.comix-cover {
+    width: 308px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    flex: 0 0 auto;
+}
+
+/* Clickable store logo (only the image is clickable) */
+.comix-store {
+    display: inline-block;
+    width: fit-content;
+}
+
+.comix-store img {
+    width: 70px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Stack on small screens */
+@media (max-width: 600px) {
+    .comix-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
