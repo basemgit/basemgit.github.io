@@ -88,9 +88,13 @@ items.forEach(data => {
         thumb.className = "video-thumb";
 
         const thumbImg = document.createElement("img");
-        thumbImg.src = `https://img.youtube.com/vi/${data.video}/mqdefault.jpg`;
+        thumbImg.src = `https://img.youtube.com/vi/${data.video}/maxresdefault.jpg`;
         thumbImg.alt = "video";
         thumbImg.loading = "lazy";
+        thumbImg.onerror = function () {
+            this.onerror = null;
+            this.src = `https://img.youtube.com/vi/${data.video}/mqdefault.jpg`;
+        };
 
         const play = document.createElement("span");
         play.className = "play-icon";
