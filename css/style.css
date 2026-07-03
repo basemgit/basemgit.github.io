@@ -422,3 +422,73 @@ main {
         align-items: flex-start;
     }
 } 
+/* =========================================================
+   ARABIC STORIES page
+   Used in: arabic-stories.html + js/arabic-stories.js
+   Self-contained. Does not depend on the music page.
+========================================================= */
+
+/* Subtitle centered under the page title (this page only) */
+.books-subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 6px;
+}
+
+/* One book row: image on the left, info on the right */
+.book-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+/* Book cover - full image, never cropped */
+.book-cover {
+    width: 308px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    flex: 0 0 auto;
+}
+
+/* Right side: title + button or store logos */
+.book-info h2 {
+    margin: 0 0 10px 0;
+}
+
+/* Single blue Buy button */
+.book-buy {
+    display: inline-block;
+    background: #1e6fff;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Store logos stacked vertically, under the title */
+.store-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.store-stack .store-logo {
+    width: 70px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Stack image and info on small screens */
+@media (max-width: 600px) {
+    .book-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
