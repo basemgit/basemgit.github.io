@@ -25,7 +25,7 @@ const books = [
             { img: "images/stores/abjjad.webp", link: "https://www.abjjad.com/book/1034046341124/%D8%AD%D8%B3%D9%86%D9%88%D8%B3/1033745694724" }
         ]
     },
-    { title: "كانت هتفرق", image: "images/novels/kanet-hatfor2.webp",
+    { title: "قصة الحاج موردخاى\nالمركز الأول\nكتاب كانت هتفرق", image: "images/novels/kanet-hatfor2.webp",
         stores: [
             { img: "images/stores/ireadhub.webp", link: "https://ireadhub.com/book/%D9%83%D8%A7%D9%86%D8%AA-%D9%87%D8%AA%D9%81%D8%B1%D9%82/" }
         ]
@@ -86,7 +86,10 @@ books.forEach(book => {
     right.className = "book-info";
 
     const h2 = document.createElement("h2");
-    h2.textContent = book.title;
+    book.title.split("\n").forEach((line, i) => {
+        if (i > 0) h2.appendChild(document.createElement("br"));
+        h2.appendChild(document.createTextNode(line));
+    });
     right.appendChild(h2);
 
     // Single blue Buy button
