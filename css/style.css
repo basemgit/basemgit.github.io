@@ -520,27 +520,17 @@ main {
 /* =========================================================
    COMIX page
    Used in: comix.html + js/comix.js
-   Title on top; image and store logo side by side (logo right of image).
+   Image on the left; title + itch logo on the right.
 ========================================================= */
 
 .comix-item {
-    margin-bottom: 40px;
-}
-
-/* Title on top */
-.comix-item h2 {
-    margin: 0 0 12px 0;
-    font-weight: normal;
-}
-
-/* Row: image on the left, store logo to its right */
-.comix-row {
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-bottom: 25px;
 }
 
-/* Cover image */
+/* Cover image (left) - full, never cropped */
 .comix-cover {
     width: 308px;
     max-width: 100%;
@@ -549,7 +539,13 @@ main {
     flex: 0 0 auto;
 }
 
-/* Clickable store logo (only the image is clickable) */
+/* Right side: title on top, logo under it */
+.comix-info h2 {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+/* Clickable itch logo (only the image is clickable) */
 .comix-store {
     display: inline-block;
     width: fit-content;
@@ -562,9 +558,9 @@ main {
     display: block;
 }
 
-/* Stack on small screens */
+/* Stack image and info on small screens */
 @media (max-width: 600px) {
-    .comix-row {
+    .comix-item {
         flex-direction: column;
         align-items: flex-start;
     }

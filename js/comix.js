@@ -2,7 +2,7 @@
 // To add a comic: copy one { ... } block and fill in the fields.
 //   title  = comic name
 //   image  = cover image path (delete this line if it has no cover)
-//   store  = { img: store badge path, link: store URL }   <-- clickable logo, right of the image
+//   store  = { img: store logo path, link: store URL }   <-- clickable logo, under the title
 //
 // Example:
 //   { title: "حماده", image: "images/comix/hamada-cover.webp",
@@ -23,27 +23,28 @@ comix.forEach(comic => {
     const item = document.createElement("article");
     item.className = "comix-item";
 
-    // title (top)
-    const h2 = document.createElement("h2");
-    comic.title.split("\n").forEach((line, i) => {
-        if (i > 0) h2.appendChild(document.createElement("br"));
-        h2.appendChild(document.createTextNode(line));
-    });
-    item.appendChild(h2);
-
-    // row: image + store logo side by side
-    const row = document.createElement("div");
-    row.className = "comix-row";
-
+    // cover image (left)
     if (comic.image) {
         const img = document.createElement("img");
         img.className = "comix-cover";
         img.src = comic.image;
         img.alt = comic.title;
         img.loading = "lazy";
-        row.appendChild(img);
+        item.appendChild(img);
     }
 
+    // right side: title + logo
+    const right = document.createElement("div");
+    right.className = "comix-info";
+
+    const h2 = document.createElement("h2");
+    comic.title.split("\n").forEach((line, i) => {
+        if (i > 0) h2.appendChild(document.createElement("br"));
+        h2.appendChild(document.createTextNode(line));
+    });
+    right.appendChild(h2);
+
+    // clickable itch logo (under the title)
     if (comic.store) {
         const a = document.createElement("a");
         a.className = "comix-store";
@@ -54,9 +55,9 @@ comix.forEach(comic => {
         logo.alt = comic.title;
         logo.loading = "lazy";
         a.appendChild(logo);
-        row.appendChild(a);
+        right.appendChild(a);
     }
 
-    item.appendChild(row);
+    item.appendChild(right);
     list.appendChild(item);
 });
