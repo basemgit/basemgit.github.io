@@ -565,3 +565,19 @@ main {
         align-items: flex-start;
     }
 }
+
+/* =========================================================
+   AWARDS page
+   Used in: awards.html + js/awards.js
+   Centered, vertically stacked. Reuses Dance image/video classes.
+========================================================= */
+
+/* Centered year title on its own line (e.g. "iRead Awards 2022") */
+/* Used in: Awards */
+.awards-heading {
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
+}
