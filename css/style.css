@@ -569,15 +569,74 @@ main {
 /* =========================================================
    AWARDS page
    Used in: awards.html + js/awards.js
-   Centered, vertically stacked. Reuses Dance image/video classes.
+   Single-subject page (like Dance). Fully self-contained —
+   does NOT reuse Dance or any other page's classes.
+   Append this block to the end of css/style.css.
 ========================================================= */
 
-/* Centered year title on its own line (e.g. "iRead Awards 2022") */
-/* Used in: Awards */
+/* Centered year title on its own line */
 .awards-heading {
     text-align: center;
     font-size: 22px;
     font-weight: normal;
-    max-width: 700px;
-    margin: 20px auto 0 auto;
+    margin: 20px 0 0 0;
 }
+
+/* Centered, capped-width image */
+.awards-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centered video block */
+.awards-video {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.awards-video img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.awards-video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    display: block;
+}
+
+/* Play button overlay */
+.awards-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+/* Text-only Arabic award item, right-aligned to the page (RTL) */
+.awards-note {
+    direction: rtl;
+    text-align: right;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.8;
+}
+

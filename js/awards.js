@@ -1,7 +1,10 @@
 // ===== AWARDS PAGE DATA =====
-// heading = centered year title on its own line
-// image   = centered, capped-width photo
-// video   = YouTube video ID (part after watch?v=)
+// Single-subject page (like Dance). Each item has one of:
+//   heading = centered year title on its own line
+//   video   = YouTube video ID (part after watch?v=)
+//   image   = centered, capped-width photo
+//   note    = text-only item, right-aligned to the page (RTL, for Arabic)
+// Add an item = add one object to this array.
 
 const items = [
     { heading: "iRead Awards 2022" },
@@ -16,48 +19,50 @@ const items = [
     { image: "images/awards/2021-4.webp" },
     { video: "DrjH7KpVYXo" },
     { image: "images/awards/2021-5.webp" },
-    { image: "images/awards/2021-6.webp" }
+    { image: "images/awards/2021-6.webp" },
+
+    { note: "حصلت قصة شادي وقصص أخرى على المركز الأول في مسابقة منصة كتبنا \"ومضة ما\" للقصص القصيرة جدا عام 2023. ونشرت القصص الفائزة ضمن كتاب بعنوان \"حكايات البحر والشمس والشاطئ\"." },
+    { note: "فازت قصة \"عم صلاح\" في مسابقة عابرون 2025 للقصص القصيرة، والتي تنظمها مؤسسة عابر الثقافية و صدرت ضمن كتاب بعنوان \"عابرون 2025\" يضم القصص الفائزة." }
 ];
 
 // ===== RENDERER =====
 const list = document.getElementById("game-list");
 
 items.forEach(data => {
-    const item = document.createElement("article");
-    item.className = "item";
 
     // Centered year heading on its own line
     if (data.heading) {
         const h = document.createElement("h2");
         h.className = "awards-heading";
         h.textContent = data.heading;
-        item.appendChild(h);
-        list.appendChild(item);
+        list.appendChild(h);
+        return;
+    }
+
+    // Text-only Arabic award item (RTL, right-aligned to page)
+    if (data.note) {
+        const p = document.createElement("p");
+        p.className = "awards-note";
+        p.textContent = data.note;
+        list.appendChild(p);
         return;
     }
 
     // Centered image
     if (data.image) {
-        const left = document.createElement("div");
-        left.className = "item-left item-left-wide";
-
         const img = document.createElement("img");
-        img.className = "item-image-centered";
+        img.className = "awards-image";
         img.src = data.image;
         img.alt = "Award";
         img.loading = "lazy";
-
-        left.appendChild(img);
-        item.appendChild(left);
+        list.appendChild(img);
+        return;
     }
 
     // Click-to-load video
     if (data.video) {
-        const right = document.createElement("div");
-        right.className = "item-video item-video-centered";
-
-        const thumb = document.createElement("div");
-        thumb.className = "video-thumb";
+        const box = document.createElement("div");
+        box.className = "awards-video";
 
         const thumbImg = document.createElement("img");
         thumbImg.src = `https://img.youtube.com/vi/${data.video}/maxresdefault.jpg`;
@@ -69,23 +74,22 @@ items.forEach(data => {
         };
 
         const play = document.createElement("span");
-        play.className = "play-icon";
+        play.className = "awards-play";
         play.innerHTML = "&#9654;";
 
-        thumb.appendChild(thumbImg);
-        thumb.appendChild(play);
+        box.appendChild(thumbImg);
+        box.appendChild(play);
 
-        thumb.addEventListener("click", () => {
+        box.addEventListener("click", () => {
             const iframe = document.createElement("iframe");
             iframe.src = `https://www.youtube.com/embed/${data.video}?autoplay=1`;
             iframe.allow = "autoplay; encrypted-media";
             iframe.allowFullscreen = true;
-            right.innerHTML = "";
-            right.appendChild(iframe);
+            box.innerHTML = "";
+            box.appendChild(iframe);
         });
-        right.appendChild(thumb);
-        item.appendChild(right);
-    }
 
-    list.appendChild(item);
+        list.appendChild(box);
+        return;
+    }
 });
