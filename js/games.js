@@ -6,6 +6,14 @@
 
 const games = [
     {
+        title: "Keep It High",
+        image: "images/games/Keep-It-High.webp",
+        video: "1LG9ZMAiA6M",
+        buttons: [
+            { store: "meta", link: "https://www.meta.com/experiences/keep-it-high/1779835976723594/" }
+        ]
+    },
+    {
         title: "Smash",
         image: "images/games/smash.webp",
         video: "NbMdpXqrLf8",
