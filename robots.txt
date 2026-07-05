@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://basemgit.github.io/sitemap.xml

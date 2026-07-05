@@ -11,9 +11,6 @@
 
 const items = [
     {
-        video: "VAqlM_vpGtU"
-    },
-    {
         video: "Jr-zs2aM9Dg"
     },
     {

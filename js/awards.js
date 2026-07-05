@@ -20,6 +20,10 @@ const items = [
     { video: "DrjH7KpVYXo" },
     { image: "images/awards/2021-5.webp" },
     { image: "images/awards/2021-6.webp" },
+    { heading: "Azeneth the Brave — Top 15 Finalist, Gaming Egypt Competition" },
+    {
+        video: "VAqlM_vpGtU"
+    },
 
     { note: "حصلت قصة شادي وقصص أخرى على المركز الأول في مسابقة منصة كتبنا \"ومضة ما\" للقصص القصيرة جدا عام 2023. ونشرت القصص الفائزة ضمن كتاب بعنوان \"حكايات البحر والشمس والشاطئ\"." },
     { note: "فازت قصة \"عم صلاح\" في مسابقة عابرون 2025 للقصص القصيرة، والتي تنظمها مؤسسة عابر الثقافية و صدرت ضمن كتاب بعنوان \"عابرون 2025\" يضم القصص الفائزة." }
@@ -68,9 +72,13 @@ items.forEach(data => {
         thumbImg.src = `https://img.youtube.com/vi/${data.video}/maxresdefault.jpg`;
         thumbImg.alt = "video";
         thumbImg.loading = "lazy";
-        thumbImg.onerror = function () {
-            this.onerror = null;
-            this.src = `https://img.youtube.com/vi/${data.video}/mqdefault.jpg`;
+        // YouTube returns a 120x90 gray placeholder when maxresdefault is missing
+        // (it loads "successfully", so onerror won't fire). Detect that size and
+        // fall back to mqdefault, which always exists.
+        thumbImg.onload = function () {
+            if (this.naturalWidth === 120 && this.naturalHeight === 90) {
+                this.src = `https://img.youtube.com/vi/${data.video}/mqdefault.jpg`;
+            }
         };
 
         const play = document.createElement("span");
