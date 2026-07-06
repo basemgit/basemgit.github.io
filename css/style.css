@@ -196,7 +196,13 @@ main {
 
 .side-menu a:hover {
 
-    text-decoration: underline;
+    color: #1e6fff;
+
+}
+
+.side-menu a.current {
+
+    color: #1e6fff;
 
 }
 

@@ -30,7 +30,7 @@ const books = [
             { img: "images/stores/ireadhub.webp", link: "https://ireadhub.com/book/%D9%83%D8%A7%D9%86%D8%AA-%D9%87%D8%AA%D9%81%D8%B1%D9%82/" }
         ]
     },
-    { title: "اليوم الأخير", image: "images/novels/el-yom-el-akheer.webp",
+    { title: "قصة زوزو بلا وكسة\nكتاب اليوم الأخير", image: "images/novels/el-yom-el-akheer.webp",
         stores: [
             { img: "images/stores/ireadhub-shop.webp", link: "https://ireadhub.com/book/%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1-2/" },
             { img: "images/stores/alrewaq.webp",       link: "https://alrewaqpublishing.com/product/%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1/" }

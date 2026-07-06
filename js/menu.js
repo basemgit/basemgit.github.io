@@ -18,3 +18,11 @@ sideMenu.addEventListener("click", (event) => {
 document.addEventListener("click", () => {
     sideMenu.classList.remove("open");
 });
+// Highlight the current page's link in the side menu
+const currentPage = window.location.pathname.split("/").pop() || "index.html";
+document.querySelectorAll(".side-menu a").forEach(link => {
+    const linkPage = link.getAttribute("href");
+    if (linkPage === currentPage) {
+        link.classList.add("current");
+    }
+});
