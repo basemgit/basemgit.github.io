@@ -6,7 +6,7 @@
 
 const songs = [
     { title: "Stove", image: "images/music/Stove.webp", link: "https://push.fm/fl/lvmqqbhr" },
-    { title: "The Kid", image: "images/music/the-kid.webp", link: "https://distrokid.com/hyperfollow/besomusic/the-kid" },
+    { title: "The Kid", image: "images/music/the-kid.webp", link: "https://push.fm/fl/z6ev3wll" },
     { title: "Your Lane", image: "images/music/your-lane.webp", link: "https://distrokid.com/hyperfollow/besomusic/your-lane" },
     { title: "Wake Up", image: "images/music/wake-up.webp", link: "https://distrokid.com/hyperfollow/besomusic/wake-up" },
     { title: "Don't Stop", image: "images/music/dont-stop.webp", link: "https://distrokid.com/hyperfollow/besomusic/dont-stop" },
