@@ -9,7 +9,7 @@ const songs = [
     { title: "The Kid", image: "images/music/the-kid.webp", link: "https://push.fm/fl/z6ev3wll" },
     { title: "Your Lane", image: "images/music/your-lane.webp", link: "https://push.fm/fl/q7bnqzep" },
     { title: "Wake Up", image: "images/music/wake-up.webp", link: "https://push.fm/fl/khornipj" },
-    { title: "Don't Stop", image: "images/music/dont-stop.webp", link: "https://distrokid.com/hyperfollow/besomusic/dont-stop" },
+    { title: "Don't Stop", image: "images/music/dont-stop.webp", link: "https://push.fm/fl/7dvkiprp" },
     { title: "Nonsense", image: "images/music/nonsense.webp", link: "https://distrokid.com/hyperfollow/besomusic/nonsense" },
     { title: "Soap", image: "images/music/soap.webp", link: "https://distrokid.com/hyperfollow/besomusic/soap" },
     { title: "Sublime", image: "images/music/sublime.webp", link: "https://distrokid.com/hyperfollow/besomusic/sublime" },
