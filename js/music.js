@@ -11,7 +11,7 @@ const songs = [
     { title: "Wake Up", image: "images/music/wake-up.webp", link: "https://push.fm/fl/khornipj" },
     { title: "Don't Stop", image: "images/music/dont-stop.webp", link: "https://push.fm/fl/7dvkiprp" },
     { title: "Nonsense", image: "images/music/nonsense.webp", link: "https://push.fm/fl/mvz7zkvl" },
-    { title: "Soap", image: "images/music/soap.webp", link: "https://distrokid.com/hyperfollow/besomusic/soap" },
+    { title: "Soap", image: "images/music/soap.webp", link: "https://push.fm/fl/51ax6bla" },
     { title: "Sublime", image: "images/music/sublime.webp", link: "https://distrokid.com/hyperfollow/besomusic/sublime" },
     { title: "Choice", image: "images/music/choice.webp", link: "https://distrokid.com/hyperfollow/besomusic/choice" },
     { title: "Beso", image: "images/music/beso.webp", link: "https://distrokid.com/hyperfollow/besomusic/beso" },
