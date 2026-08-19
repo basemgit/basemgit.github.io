@@ -45,7 +45,7 @@ const songs = [
     { title: "Punch Back", image: "images/music/punch-back.webp", link: "https://push.fm/fl/7ns5heox" },
     { title: "Unleash", image: "images/music/unleash.webp", link: "https://push.fm/fl/xeo6svyl" },
     { title: "Sniffing The Clouds", image: "images/music/sniffing-the-clouds.webp", link: "https://push.fm/fl/fbtxo2ni" },
-    { title: "Freedom", image: "images/music/freedom.webp", link: "https://distrokid.com/hyperfollow/besomusic/freedom" },
+    { title: "Freedom", image: "images/music/freedom.webp", link: "https://push.fm/fl/9wii6dtw" },
     { title: "Mandala", image: "images/music/mandala.webp", link: "https://distrokid.com/hyperfollow/besomusic/mandala" },
     { title: "Fine", image: "images/music/fine.webp", link: "https://distrokid.com/hyperfollow/besomusic/fine" },
     { title: "Dream", image: "images/music/dream.webp", link: "https://distrokid.com/hyperfollow/besomusic/dream" },
