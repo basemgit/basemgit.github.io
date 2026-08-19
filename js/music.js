@@ -63,7 +63,7 @@ const songs = [
     { title: "Desert Party", image: "images/music/desert-party.webp", link: "https://push.fm/fl/bqs63jpz" },
     { title: "Exorcism", image: "images/music/exorcism.webp", link: "https://push.fm/fl/bri8kc1s" },
     { title: "Late Night Coffee", image: "images/music/late-night-coffee.webp", link: "https://push.fm/fl/sicbwott" },
-    { title: "Underwater Dance", image: "images/music/underwater-dance.webp", link: "https://distrokid.com/hyperfollow/besomusic/underwater-dance" },
+    { title: "Underwater Dance", image: "images/music/underwater-dance.webp", link: "https://push.fm/fl/ja6fg7ju" },
     { title: "Spunky Donkey", image: "images/music/spunky-donkey.webp", link: "https://distrokid.com/hyperfollow/besomusic/spunky-donkey" }
 ];
 
