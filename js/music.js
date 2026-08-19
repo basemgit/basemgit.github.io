@@ -16,7 +16,7 @@ const songs = [
     { title: "Choice", image: "images/music/choice.webp", link: "https://push.fm/fl/qxnxkdas" },
     { title: "Beso", image: "images/music/beso.webp", link: "https://push.fm/fl/rt0rmisq" },
     { title: "Scratch", image: "images/music/scratch.webp", link: "https://push.fm/fl/juhhs9np" },
-    { title: "Squeaky Chair", image: "images/music/squeaky-chair.webp", link: "https://distrokid.com/hyperfollow/besomusic/squeaky-chair" },
+    { title: "Squeaky Chair", image: "images/music/squeaky-chair.webp", link: "https://push.fm/fl/nt8z6yds" },
     { title: "It's Your Clay", image: "images/music/its-your-clay.webp", link: "https://distrokid.com/hyperfollow/besomusic/its-your-clay" },
     { title: "Hard Target", image: "images/music/hard-target.webp", link: "https://distrokid.com/hyperfollow/besomusic/hard-target" },
     { title: "Jump", image: "images/music/jump.webp", link: "https://distrokid.com/hyperfollow/besomusic/jump" },
