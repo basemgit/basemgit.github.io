@@ -26,7 +26,7 @@ const songs = [
     { title: "A Lovely Demon", image: "images/music/a-lovely-demon.webp", link: "https://push.fm/fl/0wt5tivj" },
     { title: "Sweet Nap", image: "images/music/sweet-nap.webp", link: "https://push.fm/fl/wsdbigxi" },
     { title: "Bastard", image: "images/music/bastard.webp", link: "https://push.fm/fl/qtzrzbhs" },
-    { title: "Goat Hallucinations", image: "images/music/goat-hallucinations.webp", link: "https://distrokid.com/hyperfollow/besomusic/goat-hallucinations" },
+    { title: "Goat Hallucinations", image: "images/music/goat-hallucinations.webp", link: "https://push.fm/fl/49wz0jhp" },
     { title: "Stand Up", image: "images/music/stand-up.webp", link: "https://distrokid.com/hyperfollow/besomusic/stand-up" },
     { title: "First Kiss", image: "images/music/first-kiss.webp", link: "https://distrokid.com/hyperfollow/besomusic/first-kiss" },
     { title: "I Didn't Do It", image: "images/music/i-didnt-do-it.webp", link: "https://distrokid.com/hyperfollow/besomusic/i-didnt-do-it" },
