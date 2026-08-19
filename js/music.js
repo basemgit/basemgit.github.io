@@ -32,7 +32,7 @@ const songs = [
     { title: "I Didn't Do It", image: "images/music/i-didnt-do-it.webp", link: "https://push.fm/fl/oqk6r3zt" },
     { title: "White Lie", image: "images/music/white-lie.webp", link: "https://push.fm/fl/o4ozcqz0" },
     { title: "Chase", image: "images/music/chase.webp", link: "https://push.fm/fl/4wur3ec8" },
-    { title: "Backwords Cap", image: "images/music/backwords-cap.webp", link: "https://distrokid.com/hyperfollow/besomusic/backwords-cap" },
+    { title: "Backwords Cap", image: "images/music/backwords-cap.webp", link: "https://push.fm/fl/k6farkqi" },
     { title: "Void", image: "images/music/void.webp", link: "https://distrokid.com/hyperfollow/besomusic/void" },
     { title: "Shenanigans", image: "images/music/shenanigans.webp", link: "https://distrokid.com/hyperfollow/besomusic/shenanigans" },
     { title: "Pilonidal Cyst", image: "images/music/pilonidal-cyst.webp", link: "https://distrokid.com/hyperfollow/besomusic/pilonidal-cyst" },
