@@ -35,7 +35,7 @@ const songs = [
     { title: "Backwords Cap", image: "images/music/backwords-cap.webp", link: "https://push.fm/fl/k6farkqi" },
     { title: "Void", image: "images/music/void.webp", link: "https://push.fm/fl/08vtbnjv" },
     { title: "Shenanigans", image: "images/music/shenanigans.webp", link: "https://push.fm/fl/czw3rujb" },
-    { title: "Pilonidal Cyst", image: "images/music/pilonidal-cyst.webp", link: "https://distrokid.com/hyperfollow/besomusic/pilonidal-cyst" },
+    { title: "Pilonidal Cyst", image: "images/music/pilonidal-cyst.webp", link: "https://push.fm/fl/xetbkjzy" },
     { title: "Umbrella", image: "images/music/umbrella.webp", link: "https://distrokid.com/hyperfollow/besomusic/umbrella" },
     { title: "Monday", image: "images/music/monday.webp", link: "https://distrokid.com/hyperfollow/besomusic/monday" },
     { title: "Fly", image: "images/music/fly.webp", link: "https://distrokid.com/hyperfollow/besomusic/fly" },
