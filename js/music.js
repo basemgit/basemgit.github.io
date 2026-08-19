@@ -44,7 +44,7 @@ const songs = [
     { title: "Pinky Swear", image: "images/music/pinky-swear.webp", link: "https://push.fm/fl/bpu8nwyb" },
     { title: "Punch Back", image: "images/music/punch-back.webp", link: "https://push.fm/fl/7ns5heox" },
     { title: "Unleash", image: "images/music/unleash.webp", link: "https://push.fm/fl/xeo6svyl" },
-    { title: "Sniffing The Clouds", image: "images/music/sniffing-the-clouds.webp", link: "https://distrokid.com/hyperfollow/besomusic/sniffing-the-clouds" },
+    { title: "Sniffing The Clouds", image: "images/music/sniffing-the-clouds.webp", link: "https://push.fm/fl/fbtxo2ni" },
     { title: "Freedom", image: "images/music/freedom.webp", link: "https://distrokid.com/hyperfollow/besomusic/freedom" },
     { title: "Mandala", image: "images/music/mandala.webp", link: "https://distrokid.com/hyperfollow/besomusic/mandala" },
     { title: "Fine", image: "images/music/fine.webp", link: "https://distrokid.com/hyperfollow/besomusic/fine" },
