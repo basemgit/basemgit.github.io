@@ -59,7 +59,7 @@ const songs = [
     { title: "Cool Villain", image: "images/music/cool-villain.webp", link: "https://push.fm/fl/p9jjh5v9" },
     { title: "Fearless Surfer", image: "images/music/fearless-surfer.webp", link: "https://push.fm/fl/bf70iuxr" },
     { title: "Freska", image: "images/music/freska.webp", link: "https://push.fm/fl/ab3x8yl8" },
-    { title: "Fisherman", image: "images/music/fisherman.webp", link: "https://distrokid.com/hyperfollow/besomusic/fisherman" },
+    { title: "Fisherman", image: "images/music/fisherman.webp", link: "https://push.fm/fl/id7bshpc" },
     { title: "Desert Party", image: "images/music/desert-party.webp", link: "https://distrokid.com/hyperfollow/besomusic/desert-party" },
     { title: "Exorcism", image: "images/music/exorcism.webp", link: "https://distrokid.com/hyperfollow/besomusic/exorcism" },
     { title: "Late Night Coffee", image: "images/music/late-night-coffee.webp", link: "https://distrokid.com/hyperfollow/besomusic/late-night-coffee" },
