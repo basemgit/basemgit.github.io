@@ -43,7 +43,7 @@ const songs = [
     { title: "It's Been A Pleasure", image: "images/music/its-been-a-pleasure.webp", link: "https://push.fm/fl/ym74acoi" },
     { title: "Pinky Swear", image: "images/music/pinky-swear.webp", link: "https://push.fm/fl/bpu8nwyb" },
     { title: "Punch Back", image: "images/music/punch-back.webp", link: "https://push.fm/fl/7ns5heox" },
-    { title: "Unleash", image: "images/music/unleash.webp", link: "https://distrokid.com/hyperfollow/besomusic/unleash" },
+    { title: "Unleash", image: "images/music/unleash.webp", link: "https://push.fm/fl/xeo6svyl" },
     { title: "Sniffing The Clouds", image: "images/music/sniffing-the-clouds.webp", link: "https://distrokid.com/hyperfollow/besomusic/sniffing-the-clouds" },
     { title: "Freedom", image: "images/music/freedom.webp", link: "https://distrokid.com/hyperfollow/besomusic/freedom" },
     { title: "Mandala", image: "images/music/mandala.webp", link: "https://distrokid.com/hyperfollow/besomusic/mandala" },
