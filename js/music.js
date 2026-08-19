@@ -23,7 +23,7 @@ const songs = [
     { title: "I Told You So", image: "images/music/i-told-you-so.webp", link: "https://push.fm/fl/pr3whqwl" },
     { title: "Why?", image: "images/music/why.webp", link: "https://push.fm/fl/3wjtkxkc" },
     { title: "Odds", image: "images/music/odds.webp", link: "https://push.fm/fl/t2tsotix" },
-    { title: "A Lovely Demon", image: "images/music/a-lovely-demon.webp", link: "https://distrokid.com/hyperfollow/besomusic/a-lovely-demon" },
+    { title: "A Lovely Demon", image: "images/music/a-lovely-demon.webp", link: "https://push.fm/fl/0wt5tivj" },
     { title: "Sweet Nap", image: "images/music/sweet-nap.webp", link: "https://distrokid.com/hyperfollow/besomusic/sweet-nap" },
     { title: "Bastard", image: "images/music/bastard.webp", link: "https://distrokid.com/hyperfollow/besomusic/bastard" },
     { title: "Goat Hallucinations", image: "images/music/goat-hallucinations.webp", link: "https://distrokid.com/hyperfollow/besomusic/goat-hallucinations" },
