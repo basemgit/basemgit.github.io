@@ -30,7 +30,7 @@ const songs = [
     { title: "Stand Up", image: "images/music/stand-up.webp", link: "http://push.fm/fl/r7xrc9og" },
     { title: "First Kiss", image: "images/music/first-kiss.webp", link: "https://push.fm/fl/16m9rkvq" },
     { title: "I Didn't Do It", image: "images/music/i-didnt-do-it.webp", link: "https://push.fm/fl/oqk6r3zt" },
-    { title: "White Lie", image: "images/music/white-lie.webp", link: "https://distrokid.com/hyperfollow/besomusic/white-lie" },
+    { title: "White Lie", image: "images/music/white-lie.webp", link: "https://push.fm/fl/o4ozcqz0" },
     { title: "Chase", image: "images/music/chase.webp", link: "https://distrokid.com/hyperfollow/besomusic/chase" },
     { title: "Backwords Cap", image: "images/music/backwords-cap.webp", link: "https://distrokid.com/hyperfollow/besomusic/backwords-cap" },
     { title: "Void", image: "images/music/void.webp", link: "https://distrokid.com/hyperfollow/besomusic/void" },
