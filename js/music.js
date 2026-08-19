@@ -56,7 +56,7 @@ const songs = [
     { title: "Funky Haircut", image: "images/music/funky-haircut.webp", link: "https://push.fm/fl/n0ej8bdv" },
     { title: "On The Sly", image: "images/music/on-the-sly.webp", link: "https://push.fm/fl/s6tmzffq" },
     { title: "Dash", image: "images/music/dash.webp", link: "https://push.fm/fl/dixu027b" },
-    { title: "Cool Villain", image: "images/music/cool-villain.webp", link: "https://distrokid.com/hyperfollow/besomusic/cool-villain" },
+    { title: "Cool Villain", image: "images/music/cool-villain.webp", link: "https://push.fm/fl/p9jjh5v9" },
     { title: "Fearless Surfer", image: "images/music/fearless-surfer.webp", link: "https://distrokid.com/hyperfollow/besomusic/fearless-surfer" },
     { title: "Freska", image: "images/music/freska.webp", link: "https://distrokid.com/hyperfollow/besomusic/freska" },
     { title: "Fisherman", image: "images/music/fisherman.webp", link: "https://distrokid.com/hyperfollow/besomusic/fisherman" },
