@@ -6,6 +6,14 @@
 
 const games = [
     {
+        title: "Bullets",
+        image: "images/games/bullets.webp",
+        video: "jK5L9znCddE",
+        buttons: [
+            { store: "googleplay", link: "https://play.google.com/store/apps/details?id=com.basemibrahim.Bullets" }
+        ]
+    },
+    {
         title: "Keep It High",
         image: "images/games/Keep-It-High.webp",
         video: "1LG9ZMAiA6M",
