@@ -4,6 +4,7 @@
 //   image  = cover image path (delete this line if the book has no cover)
 //   buy    = single blue "Buy" button link          <-- use this OR stores, not both
 //   stores = list of clickable store logos (stacked) <-- use this OR buy, not both
+//   app    = optional "App" button link (Google Play) <-- can combine with buy OR stores
 //
 // SINGLE BUTTON example:
 //   { title: "عشق", image: "images/novels/eshq.webp", buy: "https://books2read.com/b/4jVnW5" }
@@ -11,6 +12,10 @@
 // MULTIPLE STORES example:
 //   { title: "حسنوس", image: "images/novels/hasnous.webp",
 //     stores: [ { img: "images/stores/abjjad.webp", link: "https://..." } ] }
+//
+// WITH APP BUTTON example:
+//   { title: "عشق", image: "images/novels/eshq.webp", buy: "https://books2read.com/b/4jVnW5",
+//     app: "https://play.google.com/store/apps/details?id=..." }
 
 const books = [
     { title: "البط البرتقالي", image: "images/novels/albat-albortoqali.webp",
@@ -37,10 +42,10 @@ const books = [
         ]
     },
     { title: "صالة الحاجة سنية للألعاب الرياضية", image: "images/novels/salet-sonia.webp", buy: "https://books2read.com/b/brl51A" },
-    { title: "عشق", image: "images/novels/eshq.webp", buy: "https://books2read.com/b/4jVnW5" },
+    { title: "عشق", image: "images/novels/eshq.webp", buy: "https://books2read.com/b/4jVnW5", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderEshq" },
     { title: "ليلة في حضن أبي", image: "images/novels/layla-fi-hodn-abi.webp", buy: "https://books2read.com/b/3LzZdN" },
-    { title: "بيلا", image: "images/novels/bella.webp", buy: "https://books2read.com/b/4AWNre" },
-    { title: "سلق بيض", image: "images/novels/sal2-beed.webp", buy: "https://books2read.com/b/mKjQkE" },
+    { title: "بيلا", image: "images/novels/bella.webp", buy: "https://books2read.com/b/4AWNre", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderBella" },
+    { title: "سلق بيض", image: "images/novels/sal2-beed.webp", buy: "https://books2read.com/b/mKjQkE", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderEgg" },
     { title: "ظلام", image: "images/novels/zalam.webp", buy: "https://books2read.com/b/bPABE7" },
     { title: "إلى عزيزي مخيمر", image: "images/novels/ela-azizi-mokhaimar.webp", buy: "https://books2read.com/b/mKjoDy" },
     { title: "شهد", image: "images/novels/shahd.webp", buy: "https://books2read.com/b/4XGJx6" },
@@ -100,6 +105,16 @@ books.forEach(book => {
         buy.target = "_blank";
         buy.textContent = "Buy";
         right.appendChild(buy);
+    }
+
+    // Optional App button (Google Play)
+    if (book.app) {
+        const app = document.createElement("a");
+        app.className = "book-app";
+        app.href = book.app;
+        app.target = "_blank";
+        app.textContent = "App";
+        right.appendChild(app);
     }
 
     // Multiple stores: stacked clickable logos
