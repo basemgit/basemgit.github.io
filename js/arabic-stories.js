@@ -4,7 +4,8 @@
 //   image  = cover image path (delete this line if the book has no cover)
 //   buy    = single blue "Buy" button link          <-- use this OR stores, not both
 //   stores = list of clickable store logos (stacked) <-- use this OR buy, not both
-//   app    = optional "App" button link (Google Play) <-- can combine with buy OR stores
+//   app    = optional "App" button link (Google Play)  <-- can combine with buy OR stores
+//   itch   = optional "itch" button link (itch.io)      <-- can combine with buy OR stores
 //
 // SINGLE BUTTON example:
 //   { title: "عشق", image: "images/novels/eshq.webp", buy: "https://books2read.com/b/4jVnW5" }
@@ -16,6 +17,10 @@
 // WITH APP BUTTON example:
 //   { title: "عشق", image: "images/novels/eshq.webp", buy: "https://books2read.com/b/4jVnW5",
 //     app: "https://play.google.com/store/apps/details?id=..." }
+//
+// WITH ITCH BUTTON example:
+//   { title: "عشق", image: "images/novels/eshq.webp", buy: "https://books2read.com/b/4jVnW5",
+//     itch: "https://basem-ibrahim.itch.io/..." }
 
 const books = [
     { title: "البط البرتقالي", image: "images/novels/albat-albortoqali.webp",
@@ -41,7 +46,7 @@ const books = [
             { img: "images/stores/alrewaq.webp",       link: "https://alrewaqpublishing.com/product/%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1/" }
         ]
     },
-    { title: "صالة الحاجة سنية للألعاب الرياضية", image: "images/novels/salet-sonia.webp", buy: "https://books2read.com/b/brl51A" },
+    { title: "صالة الحاجة سنية للألعاب الرياضية", image: "images/novels/sania.webp", itch: "https://basem-ibrahim.itch.io/sania" },
     { title: "عشق", image: "images/novels/eshq.webp", buy: "https://books2read.com/b/4jVnW5", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderEshq" },
     { title: "ليلة في حضن أبي", image: "images/novels/layla-fi-hodn-abi.webp", buy: "https://books2read.com/b/3LzZdN" },
     { title: "بيلا", image: "images/novels/bella.webp", buy: "https://books2read.com/b/4AWNre", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderBella" },
@@ -115,6 +120,16 @@ books.forEach(book => {
         app.target = "_blank";
         app.textContent = "App";
         right.appendChild(app);
+    }
+
+    // Optional itch button (itch.io)
+    if (book.itch) {
+        const itch = document.createElement("a");
+        itch.className = "book-itch";
+        itch.href = book.itch;
+        itch.target = "_blank";
+        itch.textContent = "itch";
+        right.appendChild(itch);
     }
 
     // Multiple stores: stacked clickable logos

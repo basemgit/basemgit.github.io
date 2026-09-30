@@ -487,6 +487,18 @@ main {
     margin-left: 8px;
 }
 
+/* "itch" button - clone of .book-buy, used when a story also has an itch.io page */
+.book-itch {
+    display: inline-block;
+    background: #1e6fff;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
 /* Store logos stacked vertically, under the title */
 .store-stack {
     display: flex;
