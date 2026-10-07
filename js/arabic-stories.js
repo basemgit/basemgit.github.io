@@ -46,7 +46,7 @@ const books = [
             { img: "images/stores/alrewaq.webp",       link: "https://alrewaqpublishing.com/product/%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1/" }
         ]
     },
-    { title: "صالة الحاجة سنية للألعاب الرياضية", image: "images/novels/sania.webp", itch: "https://basem-ibrahim.itch.io/sania" },
+    { title: "صالة الحاجة سنية للألعاب الرياضية", image: "images/novels/sania.webp", itch: "https://basem-ibrahim.itch.io/sania", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderSania" },
     { title: "كمفورت أو إس", image: "images/novels/comfort-os.webp", buy: "https://books2read.com/b/3GR2On" },
     { title: "سينما لوليتا", image: "images/novels/cinema-lolita.webp", buy: "https://books2read.com/b/bPEG9d" },
     { title: "إنترفيو", image: "images/novels/interview.webp", buy: "https://books2read.com/b/31Lx5D" },
