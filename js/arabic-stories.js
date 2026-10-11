@@ -61,8 +61,8 @@ const books = [
     { title: "العملية ن.س.ف", image: "images/novels/operation-nsf.webp", buy: "https://books2read.com/b/4E7l5e" },
     { title: "أسطورة الرجل الذى يأكل النساء", image: "images/novels/ostora.webp", buy: "https://books2read.com/b/bp1w5l" },
     { title: "كافر", image: "images/novels/kafer.webp", buy: "https://books2read.com/b/3y9KYB" },
-    { title: "يحيى", image: "images/novels/yahia.webp", buy: "https://books2read.com/b/b6aRyx" },
-    { title: "B-Miracle", image: "images/novels/b-miracle.webp", buy: "https://books2read.com/b/49avpp" }
+    { title: "يحيى", image: "images/novels/yahia.webp", buy: "https://books2read.com/b/b6aRyx" }
+   
 ];
 
 // ===== RENDERER (you won't usually need to touch this) =====
