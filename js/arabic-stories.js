@@ -52,7 +52,7 @@ const books = [
     { title: "خيال حلمي", image: "images/novels/helmy.webp", itch: "https://basem-ibrahim.itch.io/helmy" },
     { title: "بيض", image: "images/novels/beed.webp", itch: "https://basem-ibrahim.itch.io/eggs" },
     { title: "العملية ن.س.ف", image: "images/novels/operation-nsf.webp", itch: "https://basem-ibrahim.itch.io/nasf" },
-    { title: "أسطورة الرجل الذى يأكل النساء", image: "images/novels/ostora.webp", buy: "https://books2read.com/b/bp1w5l" },
+    { title: "أسطورة الرجل الذى يأكل النساء", image: "images/novels/ostora.webp", itch: "https://basem-ibrahim.itch.io/eater" },
     { title: "يحيى", image: "images/novels/yahia.webp", buy: "https://books2read.com/b/b6aRyx" }
    
 ];
