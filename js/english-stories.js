@@ -4,13 +4,23 @@
 //   image  = cover image path (delete this line if the book has no cover)
 //   buy    = single blue "Buy" button link          <-- use this OR stores, not both
 //   stores = list of clickable store logos (stacked) <-- use this OR buy, not both
+//   app    = optional "App" button link (Google Play)  <-- can combine with buy OR stores
+//   itch   = optional "itch" button link (itch.io)      <-- can combine with buy OR stores
 //
 // SINGLE BUTTON example:
 //   { title: "Fartastic", image: "images/novels-en/fartastic.webp", buy: "https://books2read.com/b/mBJzxO" }
+//
+// WITH APP BUTTON example:
+//   { title: "Fartastic", image: "images/novels-en/fartastic.webp", buy: "https://books2read.com/b/mBJzxO",
+//     app: "https://play.google.com/store/apps/details?id=..." }
+//
+// WITH ITCH BUTTON example:
+//   { title: "Fartastic", image: "images/novels-en/fartastic.webp", buy: "https://books2read.com/b/mBJzxO",
+//     itch: "https://basem-ibrahim.itch.io/..." }
 
 const books = [
-    { title: "Azeneth : The Girl Who Redefined Bravery", image: "images/novels-en/azeneth.webp", buy: "https://books2read.com/b/bQpP2d" },
-    { title: "Fartastic", image: "images/novels-en/fartastic.webp", buy: "https://books2read.com/b/mBJzxO" }
+    { title: "Kiki", image: "images/novels-en/kiki.webp", app: "https://books2read.com/b/bQpP2d", itch: "https://basem-ibrahim.itch.io/kiki" }
+    
 ];
 
 // ===== RENDERER (you won't usually need to touch this) =====
@@ -49,6 +59,26 @@ books.forEach(book => {
         buy.target = "_blank";
         buy.textContent = "Buy";
         right.appendChild(buy);
+    }
+
+    // Optional App button (Google Play)
+    if (book.app) {
+        const app = document.createElement("a");
+        app.className = "book-app";
+        app.href = book.app;
+        app.target = "_blank";
+        app.textContent = "App";
+        right.appendChild(app);
+    }
+
+    // Optional itch button (itch.io)
+    if (book.itch) {
+        const itch = document.createElement("a");
+        itch.className = "book-itch";
+        itch.href = book.itch;
+        itch.target = "_blank";
+        itch.textContent = "itch";
+        right.appendChild(itch);
     }
 
     // Multiple stores: stacked clickable logos
