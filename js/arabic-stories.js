@@ -52,7 +52,7 @@ const books = [
     { title: "خيال حلمي", image: "images/novels/helmy.webp", itch: "https://basem-ibrahim.itch.io/helmy", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderHelmy" },
     { title: "بيض", image: "images/novels/beed.webp", itch: "https://basem-ibrahim.itch.io/eggs", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderEggs" },
     { title: "العملية ن.س.ف", image: "images/novels/operation-nsf.webp", itch: "https://basem-ibrahim.itch.io/nasf", app:  "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderNasf" },
-    { title: "أسطورة الرجل الذى يأكل النساء", image: "images/novels/ostora.webp", itch: "https://basem-ibrahim.itch.io/eater" },
+    { title: "أسطورة الرجل الذى يأكل النساء", image: "images/novels/ostora.webp", itch: "https://basem-ibrahim.itch.io/eater", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReadeEater" },
     { title: "يحيى", image: "images/novels/yahia.webp", buy: "https://basem-ibrahim.itch.io/yahia" }
    
 ];
