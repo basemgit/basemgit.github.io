@@ -19,7 +19,7 @@
 //     itch: "https://basem-ibrahim.itch.io/..." }
 
 const books = [
-    { title: "Kiki", image: "images/novels-en/kiki.webp", app: "https://books2read.com/b/bQpP2d", itch: "https://basem-ibrahim.itch.io/kiki" }
+    { title: "Kiki", image: "images/novels-en/kiki.webp", app: "https://play.google.com/store/apps/details?id=com.basemibrahim.ReaderKiki", itch: "https://basem-ibrahim.itch.io/kiki" }
     
 ];
 
